@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light dark;
+  --bg-color: light-dark(rgb(195 245 255), rgb(0 15 35));
+  --text-color: light-dark(rgb(25 25 35), rgb(255 255 255));
+  --btn-color: light-dark(rgb(255 255 255), rgb(0 0 0));
+  --btn-border: light-dark(rgb(0 0 0), rgb(255 255 255));
+}
+
+h1 {
+    text-align: left;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+button {
+    background: var(--btn-color);
+    border: 2px solid var(--btn-border);
+}
